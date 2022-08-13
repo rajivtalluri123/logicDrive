@@ -1,5 +1,5 @@
 export const slideshowText ={
-    subheadering1: 'GROWTH YOUR BUSINESS',
-    heading:'We Provide Best Digital Marketing Solutions',
-    subheading:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.'
+    subheadering1: 'GROW YOUR BUSINESS',
+    heading:'We Provide Best IT Solutions',
+    subheading:'We accelerate business transformation for our customers. We bring real-world expertise to solve complex technology, business and talent challenges. Our business is supporting business productivity, from matching the right people with great jobs to custom project solutions and consulting. We use innovative technologies and a passion for people to provide you with the best experience possible'
 }

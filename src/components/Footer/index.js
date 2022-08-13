@@ -10,8 +10,7 @@ export default function Footer() {
             <h6>Newsletter</h6>
             <h4>Subscribe To Our Newsletter</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We send stuff which only excites and ignites your passion for IT and intresting ideas to solves your business problems.
             </p>
           </div>
           <form class="newsletter-form">
@@ -34,9 +33,7 @@ export default function Footer() {
             <div className="col-lg-4 col-md-6 col-12">
               <h3>Aboutus</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco{" "}
+                We Provide best consulting services using our best technology and passionate human resources{" "}
               </p>
             </div>
             <div className="col-lg-2 col-md-6 col-12">
@@ -61,8 +58,8 @@ export default function Footer() {
             <div className="col-lg-4 col-md-6 col-12">
               <h3>Address</h3>
               <ul>
-                <li>Chennai, Tamilnadu, India</li>
-                <li>+91 9874563210</li>
+                <li>Cary, NC, USA</li>
+                <li>+14087189387</li>
                 <li>contact@gmail.com</li>
                 <li>+3214569870</li>
               </ul>
@@ -71,7 +68,7 @@ export default function Footer() {
         </div>
         <hr/>
         <div className="footer-end">
-<h6 className="text-center">Design & Developed by Prabudevarajan</h6>
+<h6 className="text-center">Design & Developed by Logic Drive</h6>
         </div>
       </div>
     </div>

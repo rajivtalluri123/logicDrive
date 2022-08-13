@@ -14,9 +14,9 @@ export default function Services() {
     return (
         <div>
              <div className="serviceshome">
-             <div className="page-title-area">
+             {/*<div className="page-title-area">
         <h1>Our Services</h1>
-      </div>
+      </div>*/}
           <div className="container">
             <div className="servicesheader">
               <h6>{ServicesText.serviceshome_subheader}</h6>

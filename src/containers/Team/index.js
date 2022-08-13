@@ -17,10 +17,9 @@ export default function Team() {
               <div className="col-lg-6 col-md-6 col-6">
                 <div className="hometeamheader">
                   <h6>OUR TEAM</h6>
-                  <h4>We Help to Acheive Your Business Goal</h4>
+                  <h4>People helping to acheive your Business Goal</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
+                    Each one of us are very passionate about our customer and their needs.
                   </p>
                   <button className="btn learn-more-btn">View All</button>
                 </div>
@@ -29,10 +28,10 @@ export default function Team() {
                 <div className="hometeam-box">
                   <div class="our-team">
                     <div class="pic">
-                      <img src={team1} />
+                      <img src={team2} />
                     </div>
                     <div class="team-content">
-                      <h3 class="title">MARTIN SMITH</h3>
+                      <h3 class="title">Sindhu</h3>
                       <span class="post">Founder & CEO</span>
                     </div>
                   </div>
