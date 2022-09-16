@@ -42,7 +42,6 @@ export default function Footer() {
                 <li><a href="/">Home</a></li>
                 <li><a href="/Aboutus">About Us</a></li>
                 <li><a href="/Services">Services</a></li>
-                <li><a href="/Price">Price</a></li>
                 
               </ul>
             </div>
@@ -50,7 +49,6 @@ export default function Footer() {
               <h3> Links</h3>
               <ul>
                 <li><a href="/">Career</a></li>
-                <li><a href="/team">Team</a></li>
                 <li><a href="/Contactus">Contact Us</a></li>
                 <li><a href="/">FAQ</a></li>
               </ul>
@@ -68,7 +66,7 @@ export default function Footer() {
         </div>
         <hr/>
         <div className="footer-end">
-<h6 className="text-center">Design & Developed by Logic Drive</h6>
+<h6 className="text-center">Developed by DriveLogic</h6>
         </div>
       </div>
     </div>
