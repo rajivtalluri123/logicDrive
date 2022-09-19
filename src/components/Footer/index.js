@@ -56,10 +56,9 @@ export default function Footer() {
             <div className="col-lg-4 col-md-6 col-12">
               <h3>Address</h3>
               <ul>
-                <li>Cary, NC, USA</li>
-                <li>+14087189387</li>
-                <li>contact@gmail.com</li>
-                <li>+3214569870</li>
+                <li>North Carolina, USA</li>
+                <li>+1-9190355-8839</li>
+                <li>hr@drivelogic.com</li>
               </ul>
             </div>
           </div>

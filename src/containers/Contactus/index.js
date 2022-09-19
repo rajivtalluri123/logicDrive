@@ -11,6 +11,8 @@ export default function Contactus() {
         <h1>Contact Us</h1>
       </div>
       <div className="container">
+{/*
+        uncomment when contact and hours are fixed
         <div className="row">
           <div className="col-lg-4 col-md-4 col-6">
             <div className="contact-box">
@@ -29,7 +31,7 @@ export default function Contactus() {
               </div>
               <h3>Contact</h3>
               <p>
-                +14087189387<br /> +16083204916
+                +1-9190355-8839
               </p>
             </div>
           </div>
@@ -45,7 +47,7 @@ export default function Contactus() {
               </p>
             </div>
           </div>
-        </div>
+        </div>*/}
 
         <div className="contact-header">
           <h6>GET IN TOUCH</h6>
