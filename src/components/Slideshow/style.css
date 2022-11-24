@@ -39,3 +39,9 @@
 .home .home_img_right{
     margin: 80px 0px 80px 0px;
 }
+
+.home .home_img_right2{
+    max-width: 100px;
+    height: 100px;
+    margin: 10px 0px 10px 0px;
+}

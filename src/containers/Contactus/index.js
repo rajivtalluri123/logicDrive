@@ -1,10 +1,36 @@
-import React from "react";
+import React, {useState} from "react";
 import "./data";
 import "./style.css";
 import contactimg from '../../assets/Images/cntact-img.jpg';
+import { send } from 'emailjs-com';
 import { AiOutlineAim,AiOutlineComment,AiOutlineFieldTime } from "react-icons/ai";
 
-export default function Contactus() {
+export default function Contactus(props) {
+  const [personInfo, setPersonInfo] = useState({
+    name : "",
+    email : "",
+    phno : "",
+    subject : "",
+    message : ""
+  });
+  const handleChange  = (event) => {
+    setPersonInfo({ ...personInfo, [event.target.name] : event.target.value});
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault(); //prevents reload
+    console.log(personInfo);
+    send(
+        'service_ex00vaj',
+        'template_r89tag8',
+        personInfo,
+        'NOp8HJ6t9j_j4necy'
+    ).then((response) => {
+      console.log('SUCCESS', response.status, response.text);
+    }).catch((err) => {
+      console.log('Failed', err);
+    })
+  }
   return (
     <div className="contact">
        <div className="page-title-area">
@@ -63,7 +89,7 @@ export default function Contactus() {
           </div>
           <div className="col-lg-6 col-md-6 col-12">
             <div class="contact-form">
-              <form id="contactForm">
+              <form onSubmit={handleSubmit} id="contactForm">
                 <div class="row">
                   <div class="col-lg-6 col-md-6">
                     <div class="form-group">
@@ -72,7 +98,8 @@ export default function Contactus() {
                         name="name"
                         placeholder="Your Name"
                         class="form-control"
-                        value=""
+                        value={personInfo.name}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -83,7 +110,8 @@ export default function Contactus() {
                         name="email"
                         placeholder="Your email address"
                         class="form-control"
-                        value=""
+                        value={personInfo.email}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -91,10 +119,11 @@ export default function Contactus() {
                     <div class="form-group">
                       <input
                         type="text"
-                        name="number"
+                        name="phno"
                         placeholder="Your phone number"
                         class="form-control"
-                        value=""
+                        value={personInfo.phno}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
@@ -105,19 +134,22 @@ export default function Contactus() {
                         name="subject"
                         placeholder="Your Subject"
                         class="form-control"
-                        value=""
+                        value={personInfo.subject}
+                        onChange={handleChange}
                       />
                     </div>
                   </div>
                   <div class="col-lg-12 col-md-12">
                     <div class="form-group">
                       <textarea
-                        name="text"
+                        name="message"
                         cols="30"
                         rows="5"
                         placeholder="Write your message..."
                         class="form-control"
                         spellcheck="false"
+                        value={personInfo.message}
+                        onChange={handleChange}
                       ></textarea>
                     </div>
                   </div>

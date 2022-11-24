@@ -11,6 +11,9 @@ import './style.css';
   
 
 export default function Services() {
+   const sayMore = (event) => {
+     alert("more more");
+  }
     return (
         <div>
              <div className="serviceshome">
@@ -38,7 +41,7 @@ export default function Services() {
                   <AiOutlineFundView className="icon2" />
                   <h4>{ServicesText.services_box_title2}</h4>
                   <p>{ServicesText.services_box_des}</p>
-                  <button className="btn learn-more-btn">Learn More</button>
+                  <button onClick = {sayMore} className="btn learn-more-btn">Learn More</button>
                 </div>
               </div>
 

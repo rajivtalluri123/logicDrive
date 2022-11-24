@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { slideshowText } from "./data";
 import home_img_right from "../../assets/Images/Home-page-right.jpg";
-import drivelogic from "../../assets/Images/driveLogic.png";
+import drivelogic from "../../assets/driveLogicCircle.png";
 
 function Slideshow({ subheadering1, heading, subheading }) {
   return (
@@ -11,13 +11,13 @@ function Slideshow({ subheadering1, heading, subheading }) {
         <div className="row">
 
 
-         {/*   <div className="header-section mt-2 pt-2">
+         <div className="header-section mt-2 pt-2">
               <img
                   src={drivelogic}
-                  className="img-fluid mt-2 mb-2 home_img_right"
+                  className="img-fluid mt-2 mb-2 home_img_right2"
                   alt="img"
               />
-            </div>*/}
+            </div>
 
           <div className="col-lg-6 col-md-6 col-12">
             <div className="slideshow-text">
@@ -28,7 +28,7 @@ function Slideshow({ subheadering1, heading, subheading }) {
                 {/*<button className="btn about-btn mt-5 mb-5">About Us</button>*/}
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-12">
+          <div className="col-lg-4 col-md-4 col-12">
             <img
               src={home_img_right}
               className="img-fluid mt-5 mb-5 home_img_right"
