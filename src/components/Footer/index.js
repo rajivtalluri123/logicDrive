@@ -3,8 +3,8 @@ import "./style.css";
 export default function Footer() {
   return (
     <div>
-      {/* header 7 newletter */}
-      <div className="newsletter">
+      {/* header 7 newletter uncomment when we plan to send emails to the customers and employees*/}
+      {/*<div className="newsletter">
         <div className="container">
           <div className="text-center">
             <h6>Newsletter</h6>
@@ -26,7 +26,7 @@ export default function Footer() {
             </button>
           </form>
         </div>
-      </div>
+      </div>*/}
       <div className="footer">
         <div className="container footer-text">
           <div className="row">
