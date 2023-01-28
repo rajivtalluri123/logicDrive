@@ -58,14 +58,14 @@ export default function Footer() {
               <ul>
                 <li>North Carolina, USA</li>
                 <li>+1-9190355-8839</li>
-                <li>hr@drivelogic.com</li>
+                <li>hr@drivelogicit.com</li>
               </ul>
             </div>
           </div>
         </div>
         <hr/>
         <div className="footer-end">
-<h6 className="text-center">Developed by DriveLogic</h6>
+<h6 className="text-center">Developed by <u>Drive Logic IT Solutions LLC</u></h6>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ export const HomePageText ={
     subheader:'We provide some of most seeked out solutions to solve complex business problem as Saas ',
    services_title1:'Web Development',
    services_title2:'Big Data Solutions',
-   services_title3:'Email Marketing',
+   services_title3:'Devops',
    services_subheading:'',
 
    /* about_subheader:'ABOUT US',
