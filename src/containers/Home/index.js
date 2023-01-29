@@ -24,11 +24,12 @@ import {
   AiOutlineTeam,
   AiOutlineSync,
   AiOutlineFundView,
-  AiOutlineProject,
+  AiOutlineProject, AiOutlineMonitor, AiTwotoneDatabase, AiOutlineDatabase, AiTwotoneCode, AiFillCode,
 } from "react-icons/ai";
 import Aboutus from "../Aboutus";
 import Services from "../Services";
 import Team from "../Team";
+import LearnMore from "../../components/modals";
 
 function Home({ header, subheader, subheader1 }) {
   return (
@@ -45,28 +46,34 @@ function Home({ header, subheader, subheader1 }) {
           <div className="row">
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box">
-                <AiOutlineRise className="icon1" />
+                <AiFillCode className="icon1" />
                 <h4>{HomePageText.services_title1}</h4>
                 <p>{HomePageText.services_subheading}</p>
-                <button className="btn learn-more-btn">Learn More</button>
+                <LearnMore details={{title:'Web Development-Full_Stack', content:'Our team has a wealth of experience in web development and a track record of delivering high-quality solutions for both backend and frontend needs of clients.' +
+                      ' We are skilled in a range of programming languages and technologies, and have passion to constantly learn and give more expectional experience, which allows us to offer our clients cutting-edge solutions. We are confident in the abilities of our web development team, and we have received positive feedback from clients on the work they have done in the past.' +
+                      ' We\'re proud to have a talented and experienced team of web developers on our side.'}} />
               </div>
             </div>
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box">
-                <AiOutlineRocket className="icon2" />
+                <AiOutlineDatabase className="icon2" />
                 <h4>{HomePageText.services_title2}</h4>
                 <p>{HomePageText.services_subheading}</p>
-                <button className="btn learn-more-btn">Learn More</button>
+                <LearnMore details={{title:'Big Data Solutions', content:'Our team has a wealth of experience in data engineering and a track record of delivering high-quality solutions for data needs of clients.' +
+                      ' We are skilled in a range of programming languages and technologies, and have passion to constantly learn and give more expectional experience, which allows us to offer our clients cutting-edge solutions. We are confident in the abilities of our data engineer team, and we have received positive feedback from clients on the work they have done in the past.' +
+                      ' We\'re proud to have a talented and experienced team of big data developers on our side.'}} />
               </div>
             </div>
 
             <div className="col-lg-4 col-md-4 col-6">
               <div className="services-box">
-                <AiOutlineMail className="icon3" />
+                <AiOutlineMonitor className="icon3" />
                 <h4>{HomePageText.services_title3}</h4>
                 <p>{HomePageText.services_subheading}</p>
-                <button className="btn learn-more-btn">Learn More</button>
+                <LearnMore details={{title:'DevOps Solutions', content:'Our team has a wealth of experience in devops pratices and a track record of delivering high-quality solutions for platform and monitor needs of clients.' +
+                      ' We are skilled in a range of programming languages and technologies in this area, and have passion to constantly learn and give expectional experience, which allows us to offer our clients cutting-edge solutions. We are confident in the abilities of our devops team, and we have received positive feedback from clients on the work they have done in the past.' +
+                      ' We\'re proud to have a talented and experienced team of devops engineer on our side.'}} />
               </div>
             </div>
           </div>
