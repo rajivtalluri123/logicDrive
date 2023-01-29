@@ -4,9 +4,9 @@ import { AboutPageText } from "./data";
 export default function Aboutus() {
   return (
     <div className="abouthome">
-      <div className="page-title-area">
+     {/* <div className="page-title-area">
         <h1>About Us</h1>
-      </div>
+      </div>*/}
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-12 pt-5">
@@ -27,3 +27,4 @@ export default function Aboutus() {
     </div>
   );
 }
+
